@@ -1,2 +1,61 @@
 .footer {
+    background-color: $colorGreyDark;
+    display: flex;
+    
+
+    .circle-up {
+        position: absolute;
+        margin-left: 45%;
+        margin-right: 45%;
+        transform: translateY(-15px);
+        }
+
+    .button-scroll-up {
+
+        display: flex;
+        background-color: white;
+        width: 37.9px;
+        height: 35.7px;
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }   
+
+    .list-sections {
+        margin-bottom: 1.5rem;
+        text-transform:uppercase;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list-social {
+        margin-bottom: 1.5rem;
+        text-transform:uppercase;
+        justify-content: center;
+        align-items:baseline;
+    }
+
+.list-footer {
+    font-family: "Roboto Slab";
+    color: white;
+}
+.copywrite {
+    font-family: "Roboto Slab";
+    color: white;
+}
+.heart {
+    color: $colorOrange;
+}
 }

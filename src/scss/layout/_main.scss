@@ -1,4 +1,137 @@
 .main{
 
+    .article1 {
+        width: 100vw;
+        height: 100vh;
+        
+    }
+
+    .hero-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 100%;
+        background-image: url("../images/cover.jpeg");
+        background-size: cover;
+        background-position: center;
+        margin-top: -10%;
+       
+    }
+
+    .button-scroll-down {
+        display: flex;
+        background-color: white;
+        width: 37.9px;
+        height: 35.7px;
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+    }
     
+    .hero-text {
+        text-align: center;     
+    }
+
+
+    .title-hero {
+        font-family: 'Roboto Slab';
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: white;
+        text-shadow: 0 2px 3px black
+
+    }
+
+    .text-hero{
+
+        font-family: "Roboto";
+        font-size: 1.5rem;
+        color: white;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+
+.mission-statement {
+
+    margin-left:2.31rem;
+    margin-top: 2.31rem;
+    margin-right: 2.31rem;
+    margin-bottom: 3rem;
+}
+
+.mission-slogan {
+    color: $colorOrange;
+    font-size: 1rem;
+    padding-bottom: 5px;
+}
+
+.mission-title {
+    font-family: 'Roboto Slab'; 
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-bottom: 8px;
+
+}
+.text.title {
+    font-family: 'Roboto';
+    font-size: 1.25rem;
+    color: $colorGreyDark;
+    padding-bottom: 8px;
+}
+
+.button-buy {
+        display: flex;
+        width:7rem;
+        height:2rem;
+        border-radius: 3rem;
+        border:solid 2px $colorOrange;
+        text-align: center;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Roboto-Medium';
+        color: $colorOrange;
+        text-transform: capitalize;
+        margin-top: 10px;
+}
+
+
+    .section2 {
+        background-color: $colorGreyLight;
+        padding-bottom: 50px;
+
+    }
+
+    .title-grid {
+        font-size: 1.3rem;
+
+    }
+
+    .item-title {
+        font-family:'Roboto Slab';
+        font-weight: bold;
+
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-rows: 40px 60px 60px 60px 60px 60px 60px 40px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .button-start { 
+        background-color: $colorOrange;
+        width: 90px;
+        height: 30px;
+        border-radius: 10px;
+        justify-content: center;
+        align-content: center;
+           
+    }   
 }
